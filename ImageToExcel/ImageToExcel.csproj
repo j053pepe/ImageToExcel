@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1705A159-25D2-4EA2-A33E-E160C80A4E59}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ImageToExcel</RootNamespace>
-    <AssemblyName>ImageToExcel</AssemblyName>
+    <RootNamespace>ImageToExcelOffice</RootNamespace>
+    <AssemblyName>ImageToExcelOffice</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
