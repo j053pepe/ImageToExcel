@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageToExcelOffice", "ImageToExcel\ImageToExcelOffice.csproj", "{1705A159-25D2-4EA2-A33E-E160C80A4E59}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageToExcelEPPlus", "ImageToExcelNPOI\ImageToExcelEPPlus.csproj", "{C2C389A8-5096-43B2-AA96-7730A7FC0F22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCode", "TestCode\TestCode.csproj", "{3EE72EB4-BA84-4337-A5A5-566EC5FA7CC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{1705A159-25D2-4EA2-A33E-E160C80A4E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1705A159-25D2-4EA2-A33E-E160C80A4E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1705A159-25D2-4EA2-A33E-E160C80A4E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2C389A8-5096-43B2-AA96-7730A7FC0F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C389A8-5096-43B2-AA96-7730A7FC0F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C389A8-5096-43B2-AA96-7730A7FC0F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C389A8-5096-43B2-AA96-7730A7FC0F22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EE72EB4-BA84-4337-A5A5-566EC5FA7CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EE72EB4-BA84-4337-A5A5-566EC5FA7CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EE72EB4-BA84-4337-A5A5-566EC5FA7CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EE72EB4-BA84-4337-A5A5-566EC5FA7CC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

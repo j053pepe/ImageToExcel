@@ -36,20 +36,17 @@ namespace ImageToExcel
             xlWorkBook = xlApp.Workbooks.Add(misValue);
             xlWorkSheet = (Excel.Worksheet)xlWorkBook.Worksheets.get_Item(1);
 
-
-            HashSet<Color> colors = new HashSet<Color>();
             try
             {
                 Bitmap bmp = new Bitmap(pathImage);
 
                 for (int x = 0; x < bmp.Size.Width; x++)
                 {
-                    //for (int y = 0; y < bmp.Size.Height; y++)
-                    for (int y = 0; y < 20; y++)
+                    for (int y = 0; y < bmp.Size.Height; y++)
+                    //for (int y = 0; y < 20; y++)
                     {
                         try
                         {
-                            //colors.Add(bmp.GetPixel(x, y));
                             Adress = "";
                             Adress = await GetAdress(x) + (y + 1);
 
